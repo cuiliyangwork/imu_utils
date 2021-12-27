@@ -1,0 +1,23 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/cly/ros_ws/ros_calibrate_ws/devel/lib/python3/dist-packages",
+        "/home/cly/ros_ws/fusion_location_ws/devel/lib/python3/dist-packages",
+        "/home/cly/ros_ws/auto_navi_ws/devel/lib/python3/dist-packages",
+        "/home/cly/ros_ws/robot_planner_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/cly/ros_ws/ros_calibrate_ws/devel/lib/python3/dist-packages",
+        "/home/cly/ros_ws/fusion_location_ws/devel/lib/python3/dist-packages",
+        "/home/cly/ros_ws/auto_navi_ws/devel/lib/python3/dist-packages",
+        "/home/cly/ros_ws/robot_planner_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "editor.formatOnSave": true,
+    "[cpp]": {
+        "editor.wordBasedSuggestions": false,
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.defaultFormatter": "xaver.clang-format"
+    }
+}

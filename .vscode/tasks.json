@@ -1,0 +1,28 @@
+{
+    "tasks": [
+        {
+            "type": "catkin_make",
+            "args": [
+                "--directory",
+                "${workspaceFolder}/../..",
+                "--only-pkg-with-deps",
+                "imu_utils",
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-DFORCE_DEBUG_BUILD=True",
+                "-DCMAKE_C_COMPILER=/usr/bin/clang",
+                "-DCMAKE_CXX_COMPILER=/usr/bin/clang++",
+                "-DCMAKE_EXPORT_COMPILE_COMMANDS=1",
+                "--cmake-args",
+                "-Wno-dev"
+            ],
+            "problemMatcher": [
+                "$catkin-gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "label": "catkin_make: build",
+        }
+    ]
+}
